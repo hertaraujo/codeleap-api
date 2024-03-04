@@ -7,5 +7,8 @@ class Post(models.Model):
     content = models.TextField()
     created_datetime = models.DateTimeField(auto_now_add=True)
 
+    class Meta:
+        ordering = ["created_datetime"]
+
     def __str__(self) -> str:
         return f"{self.username}'s {self.id}º post"
