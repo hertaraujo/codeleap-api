@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "codeleap-api"
+version = "0.1.0"
+description = "API created for codeleap challange"
+authors = ["Herbert Araújo <herbertaraujo.contact@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.0.3"
+djangorestframework = "^3.14.0"
+django-filter = "^23.5"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
