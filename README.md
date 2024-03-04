@@ -6,7 +6,7 @@ This is a API built for CodeLeap Back-end Challenge
 
 Follow this steps
 
-1. Make sure you have `python` and `poetry` installed
+1. Make sure you have [`python`](https://www.python.org/downloads/) and [`poetry`](https://python-poetry.org/docs/) installed
 2. Run these commands in your terminal at the project root
 
 ```bash
